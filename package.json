@@ -1,0 +1,37 @@
+{
+  "name": "10kticketstat",
+  "version": "1.0.0",
+  "description": "A script to aggregate 10000ft.com (10K) statistics based on time entries matching a ticket pattern",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamshaylor/10kticketstat.git"
+  },
+  "keywords": [
+    "10k",
+    "10kft",
+    "10000ft.com",
+    "ticket",
+    "statistics"
+  ],
+  "author": "Adam Shaylor <business@adamshaylor.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamshaylor/10kticketstat/issues"
+  },
+  "homepage": "https://github.com/adamshaylor/10kticketstat#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "minimist": "^1.2.0"
+  }
+}
