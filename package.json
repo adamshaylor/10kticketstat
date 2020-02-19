@@ -1,6 +1,6 @@
 {
   "name": "10kticketstat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A script to aggregate 10000ft.com (10K) statistics based on time entries matching a ticket pattern",
   "bin": "index.js",
   "scripts": {
